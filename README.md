@@ -18,11 +18,17 @@ permissions and limitations under the License. See accompanying LICENSE file.
 
 
 - JITed version maximum speed
+
 	Encoding - 35MB/s
+	
 	Decoding - 330MB/s
+	
  The speeds reported above are due to tests with following parameters
+
 	a) 3Gz dual core iMac (8GB RAM) with 1GB allotted to the VM(JDK 1.8 preview).
+	
 	b) Block length = 32
+	
 	c) UTF-8 text file sizes 150KB and 7MB.
 
  The speed changes when block length changes(smaller block lengths decrease the speed, larger block length decreases compression).
