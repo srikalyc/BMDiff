@@ -9,9 +9,11 @@ either express or implied. See the License for the specific language governing
 permissions and limitations under the License. See accompanying LICENSE file.
 
 ------------ Version 1 NOTES ---------------
+
 - Inspired from BigTable paper[1] description about  Bentley and McIlroy’s long string compression scheme[2].
 
 [1] - http://static.googleusercontent.com/media/research.google.com/en/us/archive/bigtable-osdi06.pdf
+
 [2] - http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.11.8470&rep=rep1&type=pdf
 
 
@@ -31,4 +33,5 @@ permissions and limitations under the License. See accompanying LICENSE file.
 Related Bugs in the open:
 
 HBASE  - https://issues.apache.org/jira/browse/HBASE-2655
+
 Hadoop - https://issues.apache.org/jira/browse/HADOOP-5793
